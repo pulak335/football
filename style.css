@@ -34,7 +34,7 @@ header{
     text-decoration: none;
     color: #fff;
     background-color:#e02c6d;
-    padding:10px 30px 10px 30px;
+    padding:10px 30px 10px 50px;
 }
 .watch-btn i{
     margin-left: 5px;
@@ -44,11 +44,12 @@ header{
 }
 .header-banner{
     width: 50%;
-    padding: 40px;
+    padding: 70px;
 }
 .header-banner img{
     width: 556px;
     height: 450px;
+    padding-bottom: 50px;
 }
 
 /* ***********************************************************************
