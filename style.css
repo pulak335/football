@@ -1,0 +1,138 @@
+/* google fonts  import*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+/* root styles  */
+
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    width: 1050px;
+    float: none;
+    margin: 0 auto;
+}
+
+/* header section styles */
+header{
+    background-color: #2d25a0;
+}
+.header-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.copa{
+    font-weight: 800;
+    font-size: 60px;
+    color: #fff;
+}
+.watch-btn{
+    text-decoration: none;
+    color: #fff;
+    background-color:#e02c6d;
+    padding:10px 30px 10px 30px;
+}
+.watch-btn i{
+    margin-left: 5px;
+}
+.header-info{
+    width: 50%;
+}
+.header-banner{
+    width: 50%;
+    padding: 40px;
+}
+.header-banner img{
+    width: 556px;
+    height: 450px;
+}
+
+/* ***********************************************************************
+player section styles 
+**************************************/
+.players-container{
+    width: 980px;
+    float: none;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+}
+.player img{
+    width: 300px;
+    height: 256px;
+}
+.player h3{
+    font-weight: 700;
+    font-size: 28px;
+    margin: 0;
+}
+.player p{
+    color: gray;
+}
+/* ***********************************************************************
+highlights section styles 
+**************************************/
+.highlights{
+    width: 980px;
+    float: none;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+.highlight{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 70px;
+    margin-bottom: 150px;
+}
+.highlight-title{
+    font-weight: 700;
+    font-size: 48px;
+    line-height :60px;
+}
+
+.highlight-desc{
+    color: gray;
+    font-size: 16px;
+}
+.highlight-photo img{
+    width: 540px;
+    height: 400px;
+}
+/* ***********************************************************************
+footer section styles
+**************************************/
+
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-logo{
+
+}
+.footer-logo img{
+    width: 400px;
+    height: 110px;
+}
+.social-link i{
+    margin: 15px;
+    font-size: 16px;
+    border-radius: 50%;
+    padding: 5px;
+    background-color:rgba(56, 56, 56, 0.281);
+    color: gray;
+}
+.footer-container p{
+    font-size: 18px;
+    margin-bottom: 70px;
+}
