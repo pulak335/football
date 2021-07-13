@@ -44,12 +44,12 @@ header{
 }
 .header-banner{
     width: 50%;
-    padding: 70px;
+    padding: 50px;
 }
 .header-banner img{
     width: 556px;
     height: 450px;
-    padding-bottom: 50px;
+    padding-bottom: 60px;
 }
 
 /* ***********************************************************************
