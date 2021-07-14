@@ -36,13 +36,11 @@ header{
     text-decoration: none;
     color: #fff;
     background-color:#e02c6d;
-    padding:10px 35px 10px 35px;
-    transition: 1s;
+    padding:9px 34px 9px 34px;
 }
 .watch-btn:hover{
     border: 3px solid #e02c6d;
     background-color: #2d25a0;
-    padding:9px 34px 9px 34px;
     color:#e02c6d;
 }
 .watch-btn i{
