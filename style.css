@@ -36,27 +36,18 @@ header{
     text-decoration: none;
     color: #fff;
     background-color:#e02c6d;
-    padding:10px 30px 10px 50px;
+    padding:10px 35px 10px 35px;
+    transition: 1s;
+}
+.watch-btn:hover{
+    border: 3px solid #e02c6d;
+    background-color: #2d25a0;
+    padding:9px 34px 9px 34px;
+    color:#e02c6d;
 }
 .watch-btn i{
     margin-left: 5px;
 }
-
-.header-banner{
-    animation-duration: 5s;
-    animation-name: slidein;
-}
-@keyframes slidein{
-    from {
-        margin-left: 100%;
-        width: 300%;
-    }
-    to {
-        margin-left: 10%;
-        width: 80%;
-    }
-  }
-
 
 .header-banner{
     width: 50%;
@@ -66,6 +57,7 @@ header{
     height: 450px;
     padding-top: 60px;
     padding-bottom: 60px;
+    transition: 2s;
 }
 
 /* ***********************************************************************
@@ -124,6 +116,12 @@ highlights section styles
     width: 540px;
     height: 400px;
 }
+.watch-btn-2{
+    text-decoration: none;
+    color: #fff;
+    background-color:#e02c6d;
+    padding:10px 35px 10px 35px;
+}
 /* ***********************************************************************
 footer section styles
 **************************************/
@@ -134,9 +132,7 @@ footer section styles
     justify-content: center;
     align-items: center;
 }
-.footer-logo{
 
-}
 .footer-logo img{
     width: 400px;
     height: 110px;
